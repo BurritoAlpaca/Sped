@@ -1,15 +1,11 @@
 type: GenericSmelter
 name: Copper Duplicator
 description: 1 Copper=10 Copper
-liquidCapacity: 0
 size: 1
-hasPower: false
-hasLiquids: false
 hasItems: true
 craftTime: 1
 updateEffect: smeltsmoke
 consumes: {
-  power: 0
   items: {
     items: [
       copper/1
@@ -17,6 +13,9 @@ consumes: {
   }
   
 }
+requirements: [
+  copper/0
+]
 category: crafting
 research: duo
 idleSound: respawning
