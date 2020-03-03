@@ -1,0 +1,25 @@
+type: DoubleTurret
+name: LOL Turret
+description: Cheater
+health: 200000
+size: 1
+reload: 0
+range: 100000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 100
+ammo: {
+  copper: {
+    speed: 30
+    damage: 300000
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 500
+  }
+}
+requirements: [
+]
+category: turret
+research: duo
