@@ -25,5 +25,5 @@
 		{"item": "lead", "amount": "10"}
 	],
 	"category": "turret",
-	"research": "free-item"
+	"research": "duo"
 }
