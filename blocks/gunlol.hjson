@@ -1,26 +1,29 @@
-type: DoubleTurret
-name: LOL Turret
-description: Cheater
-health: 2000
-size: 1
-reload: 10
-range: 100000
-ammoUseEffect: shellEjectSmall
-inaccuracy: 0
-rotatespeed: 100
-ammo: {
-  copper: {
-    speed: 30
-    damage: 300000
-    bulletWidth: 7
-    bulletHeight: 9
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 500
-  }
+{
+	"type": "DoubleTurret",
+	"name": "Ranger",
+	"description": "giant sniper turret. never ask.",
+	"health": 5000,
+	"size": 4,
+	"reload": 10,
+	"range": 10000,
+	"ammoUseEffect": "shellEjectSmall",
+	"innacuracy": 0,
+	"rotatespeed": 2,
+	"ammo": {
+		"blastanium": {
+			"speed": 30.0,
+			"damage": 1000,
+			"bulletWidth": 10,
+			"bulletHeight": 40,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount": "10"},
+		{"item": "lead", "amount": "10"}
+	],
+	"category": "turret",
+	"research": "free-item"
 }
-requirements: [
-  copper/1
-]
-category: turret
-research: free-item
